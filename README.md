@@ -58,7 +58,8 @@
    git clone <URL_DU_DEPOT>
    cd <NOM_DU_DEPOT>
 2. Compiler le dépôt :
-   make
+  - `make`
 3. Lancer le projet :
+   ```bash
    gcc -o my_program main.c -L. -lhashtable
    ./my_program
